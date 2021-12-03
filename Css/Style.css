@@ -1,0 +1,207 @@
+body{
+font-family: 'Roboto Slab', serif;
+  color: #3d3d3d;
+  background: #ffffff;
+
+  font-size: 1.33rem;
+  line-height: 1.4em;
+  margin: 0;
+}
+h1{
+text-align: center;
+font-size: 4rem;
+line-height: 1.3em;
+color: #000000;
+ font-family: 'Roboto Condensed';
+}
+.logoCabezera{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.imagen{
+  margin-bottom: 1.6em;
+  float: left;
+}
+.imagenSeg{
+ margin: auto;
+ width: 30%;
+}
+.header{
+  background: #e0f6e7;
+  color: #3d3d3d;
+  padding: 0.1rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigation ul li{
+  display: inline-block;
+}
+.navigation ul li a{
+  display: block;
+  padding: 1rem 3rem;
+  transition: all 0.4s linear;
+  border-radius: 1px;
+}
+.navigation ul li a:hover{
+  background: #8ef2d8;
+}
+.header a{
+  color: #3d3d3d;
+  text-decoration: none;
+}
+.main{
+  padding: 5rem;
+  color: #3d3d3d;
+}
+.segundoparrafo p{
+  padding: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.5em;
+  color: #3d3d3d;
+  text-align: center;
+}
+.Cuadro_de_Registro{
+  max-width: 530px;
+  height: 360px;
+  margin: 5% auto;
+  margin-left: 750px;
+  padding-bottom: 1rem;
+  background-color: #1f3c94;
+}
+.form_top{
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0 0.01rem;
+  border-top: solid .6rem #1f3c94;
+  margin-bottom: 1rem;
+}
+.form_top h2{
+  font-weight: bold;
+  color: #db265a;
+  font-size: 30px;
+  text-align: center;
+
+}
+.registro{
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn_form{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+.input, .btn_submit{
+  padding: .5rem;
+  margin: .5rem 0;
+  margin-bottom: 1px;
+  border: none;
+  border-bottom: solid #e66489 .2rem;
+  transition: all .5s;
+}
+.registro p{
+  font-size: 15px;
+  text-align: center;
+  color: yellow;
+}
+.registro p:hover{
+  color: #e66489;
+}
+.input:focus{
+  border-bottom: solid #e66489 .2rem;
+}
+.btn_submit{
+  width: 40%;
+  border-bottom: none;
+  background-color: #31B1E5;
+  color: white;
+}
+.btn_submit:hover{
+  background-color: #F39B53;
+}
+.tercerparrafo p{
+  padding: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.1em;
+  color: #3d3d3d;
+}
+.cuartoparrafo p{
+  padding: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.5em;
+  color: #3d3d3d;
+
+}
+
+.septimoparrafo p{
+
+  padding: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.5em;
+  color: #3d3d3d;
+
+
+
+}
+
+.quintoparrafo{
+  padding: 25px;
+  margin: 50px;
+  text-align: center;
+}
+.SextoParrafo {
+  padding: 25px;
+  margin: 50px;
+  text-align: center;
+}
+.SextoParrafo p,h2{
+  text-align: left;
+}
+footer{
+  width: 100%;
+  padding: 10px 0px;
+  background: #204255;
+}
+.ContainerFooter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-top: 0;
+}
+.Links{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.Imgfooter{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 50px;
+}
+.Links h2{
+  margin-bottom: 5px;
+  color: white;
+}
+.Links a{
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+.Links a:hover{
+  color: #31B1E5;
+}
